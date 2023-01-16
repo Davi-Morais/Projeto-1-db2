@@ -7,15 +7,18 @@
     <script src="assets/javascript/mapa.js"></script>
   </head>
   <body>
+    <div id="header">Hemonúcleos</div>
+
     <div id="map"></div>
 
     <div id="form">
+        <h3>Informe o nome e a localização do Hemonúcleo!</h3>
         <form action="/pagina-processa-dados-do-form" method="post">
-            <div>
+            <div id="label">
                 <label for="name">Nome:</label>
                 <input type="text" id="nome" />
             </div>
-            <div>
+            <div id="button">
                 <button type="button" onclick="salvar()">Salvar</button>
             </div>
         </form>
