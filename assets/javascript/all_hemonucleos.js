@@ -19,7 +19,6 @@ function loadAll() {
             marker = new google.maps.Marker({
                 map: map,
                 position: {lat: element.geometria.coordinates[0], lng: element.geometria.coordinates[1]},
-                draggable: true
             });
         });
         
