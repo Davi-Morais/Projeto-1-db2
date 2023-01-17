@@ -21,6 +21,5 @@ function loadAll() {
                 position: {lat: element.geometria.coordinates[0], lng: element.geometria.coordinates[1]},
             });
         });
-        
     });
 };
